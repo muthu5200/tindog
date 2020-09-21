@@ -1,0 +1,117 @@
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/*Navigation bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Features section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+/* Testimonial section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.dog-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3%;
+}
+
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  margin: 20px;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color:#fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family:cursive;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+
+@media(max-width: 1028px){
+
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
